@@ -10,7 +10,7 @@
 > Links
 
 - [LIVE Demo](https://jinja-swipe-bootstrap-5.appseed-srv1.com/) - starter in action
-- [Jinja Template](https://github.com/app-generator/jinja-swipe-bootstrap-5) - A curated list with Jinja projects that use this template
+- More [Jinja Templates](https://appseed.us/jinja-template) - provided by AppSeed
 
 <br />
 
