@@ -1,0 +1,85 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Sign UP  {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <section class="min-vh-100 d-flex align-items-center bg-soft">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="signin-inner mt-3 mt-lg-0 bg-white shadow border rounded border-light w-100">
+                        <div class="row gx-0 align-items-center justify-content-between">
+                            <div class="col-12 col-lg-5 d-none d-lg-block rounded-left bg-secondary">
+                                <img src="/static/assets/img/illustrations/login.svg" alt="login image">
+                            </div>
+                            <div class="col-12 col-lg-7 px-3 py-5 px-sm-5 px-md-6">
+                                <div class="text-center text-md-center mb-4 mt-md-0">
+                                    <h1 class="mb-0 h3">
+                                        <a href="https://appseed.us/jinja-template?ref=demo" target="_blank">Jinja</a> Swipe - Register</h1>
+                                </div>
+                                <form action="#">
+                                    <!-- Form -->
+                                    <div class="form-group mb-4">
+                                        <label for="exampleInputEmailCard3">Your Email</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="basic-addon3"><span class="fas fa-envelope"></span></span>
+                                            <input type="email" class="form-control" placeholder="example@company.com" id="exampleInputEmailCard3">
+                                        </div>  
+                                    </div>
+                                    <!-- End of Form -->
+                                    <div class="form-group">
+                                        <!-- Form -->
+                                        <div class="form-group mb-4">
+                                            <label for="exampleInputPasswordCard4">Your Password</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon4"><span class="fas fa-unlock-alt"></span></span>
+                                                <input type="password" placeholder="Password" class="form-control" id="exampleInputPasswordCard4">
+                                            </div>  
+                                        </div>
+                                        <!-- End of Form -->
+                                        <!-- Form -->
+                                        <div class="form-group mb-4">
+                                            <label for="exampleInputPasswordCard4">Confirm Password</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon5"><span class="fas fa-unlock-alt"></span></span>
+                                                <input type="password" placeholder="Confirm Password" class="form-control" id="exampleInputPasswordCard5">
+                                            </div>  
+                                        </div>
+                                        <!-- End of Form -->
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                            <label class="form-check-label" for="defaultCheck6">
+                                                I agree to the <a href="#" class="text-primary font-weight-bold">terms and conditions</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-block btn-primary">Sign in</button>
+                                </form>
+                                <div class="d-flex justify-content-center align-items-center mt-4">
+                                    <span class="font-weight-normal">
+                                        Have an account?
+                                        <a href="/sign-in.html" class="font-weight-bold">Login</a>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mt-4">
+                                    <p>
+                                        &copy; <a target="_blank" href="https://themesberg.com/?ref=appseed">Themesberg</a> 
+                                        - Coded by <a target="_blank" href="https://appseed.us/?ref=demo">AppSeed</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

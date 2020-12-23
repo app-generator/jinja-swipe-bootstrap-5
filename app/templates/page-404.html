@@ -1,31 +1,23 @@
 {% extends "layouts/base-fullscreen.html" %}
 
-{% block title %} Error 404 {% endblock %} 
+{% block title %} Error 404  {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
 
-    <!-- Section -->
-    <section class="min-vh-100 d-flex align-items-center bg-soft">
+    <section class="vh-100 d-flex align-items-center justify-content-center">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 d-flex align-items-center justify-content-center">
-                    <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
-                        <div class="text-center text-md-center mb-4 mt-md-0">
-                            <h1 class="mb-0 h3">
-                              Error 404
-                            </h1>
-                            <br />
-                            <span class="font-weight-normal">
-                                Page not found.
-                            </span>                            
-                        </div>
-                        
-                        <form action="#" class="mt-4">
-                            <a href="/" class="btn btn-block btn-primary">Home</a>
-                        </form>
+            <div class="row">
+                <div class="col-12 text-center d-flex align-items-center justify-content-center">
+                    <div>
+                        <img class="img-fluid w-75" src="/static/assets/img/illustrations/404.svg" alt="404 not found">
+                        <h1 class="mt-5">Page not <span class="font-weight-bolder text-primary">found</span></h1>
+                        <p class="lead my-4">Oops! Looks like you followed a bad link. If you think this is a
+                            problem with us, please tell us.</p>
+                        <a class="btn btn-primary animate-hover" href="/">
+                            <i class="fas fa-chevron-left mr-3 pl-2 animate-left-3"></i>Go HOME</a>
                     </div>
                 </div>
             </div>

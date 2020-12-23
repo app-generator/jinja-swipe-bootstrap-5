@@ -1,27 +1,27 @@
-# [Jinja Template](https://github.com/app-generator/jinja-template)
+# [Jinja Template](https://appseed.us/jinja-template) Swipe
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
-- UI Kit: **Neumorphism UI** (Free Version) by **Themesberg**
+- UI Kit: **Swipe Bootstrap 5** (Free Version) by **Themesberg**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
 - Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 > Links
 
-- [LIVE Demo](https://theme-jinja2.appseed.us/) - starter in action
-- [Jinja Template](https://github.com/app-generator/jinja-template) - A curated list with Jinja projects that use this template
+- [LIVE Demo](https://jinja-swipe-bootstrap-5.appseed-srv1.com/) - starter in action
+- [Jinja Template](https://github.com/app-generator/jinja-swipe-bootstrap-5) - A curated list with Jinja projects that use this template
 
 <br />
 
-## UI Kit - [Neumorphism UI](https://themesberg.com/product/ui-kits/neumorphism-ui-kit-bootstrap)
+## Swipe - Free One Page Bootstrap 5 Template
 
-*Vendor Notes* - Start developing neumorphism (aka. neomorphism) inspired layouts, web apps and pages with this free UI Kit. It features over 200 individual components and 5 example pages. Neumorphism UI makes use of the original neumorphism design specs.
-All components are perfectly in compliance with the neumorphism design trend making use of the specific shadow and coloring attributes. Neumorphism UI also comes with the shadow inset style add-on. Only some neumorphic components that are included are timelines, profile cards, pricing cards, call to action sections and many more.
+Swipe is a free mobile application One Page Bootstrap 5 Template featuring sections such as about, testimonials, frequently asked questions, and two app download CTA sections.
+Using beautifully vibrant colors and illustrations you can create a stunning presentational page for your mobile app.
 
 <br />
 
-![Jinja Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2/master/media/theme-jinja2-screen.png)
+![Jinja Swipe - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-swipe-bootstrap-5/master/media/jinja-swipe-bootstrap-5-screen.png)
 
 <br />
 
@@ -29,8 +29,8 @@ All components are perfectly in compliance with the neumorphism design trend mak
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-swipe-bootstrap-5.git
+$ cd jinja-swipe-bootstrap-5
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -90,8 +90,6 @@ The project has a simple structure, represented as bellow:
    |    |    |    |-- base-fullscreen.html # Used by auth pages (login, register)
    |    |    |
    |    |  index.html                      # The default page
-   |    |  login.html                      # Auth Login Page
-   |    |  register.html                   # Auth Registration Page
    |    |  page-404.html                   # Error 404 page (page not found)
    |    |  page-500.html                   # Error 500 page (server error)
    |    |    *.html                        # All other pages provided by the UI Kit
@@ -119,8 +117,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-swipe-bootstrap-5.git
+$ cd jinja-swipe-bootstrap-5
 ```
 
 > Start the app in Docker
@@ -145,8 +143,8 @@ Steps to deploy on **Heroku**
 
 ```bash
 $ # Clone the source code:
-$ git clone https://github.com/app-generator/theme-jinja2.git
-$ cd theme-jinja2
+$ git clone https://github.com/app-generator/jinja-swipe-bootstrap-5.git
+$ cd jinja-swipe-bootstrap-5
 $
 $ # Check Heroku CLI is installed
 $ heroku -v
@@ -217,4 +215,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template](https://theme-jinja2.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://appseed.us/jinja-template) Swipe - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
